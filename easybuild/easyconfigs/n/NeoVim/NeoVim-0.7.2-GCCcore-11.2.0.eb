@@ -51,7 +51,7 @@ dependencies = [
     ('libuv',       '1.44.2'),
     ('LuaJIT2-OpenResty', '2.1-20220411'),
     ('luv',         '1.44.2-0'),
-    ('lpeg',        '1.0.2'),
+    ('LPeg',        '1.0.2'),
     ('tree-sitter', '0.20.6'),
     ('unibilium',   '2.1.1'),
     ('utf8proc',    '2.6.1'),

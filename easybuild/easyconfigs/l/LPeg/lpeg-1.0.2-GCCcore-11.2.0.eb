@@ -3,7 +3,7 @@
 # Copyright 2019-2022 Stepan Nassyr @ Forschungszentrum Juelich
 easyblock = 'MakeCp'
 
-name = 'lpeg'
+name = 'LPeg'
 version = '1.0.2'
 
 homepage = 'http://www.inf.puc-rio.br/~roberto/lpeg/'
