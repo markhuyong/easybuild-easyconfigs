@@ -46,7 +46,7 @@ dependencies = [
     ('msgpack-c',   '4.0.0'),
     ('gperf',       '3.1'),
     ('libmpack-lua', '1.0.9'),
-    ('libvterm',    '0.1.3'),
+    ('libvterm',    '0.3'),
     ('libtermkey',  '0.22'),
     ('libuv',       '1.44.2'),
     ('LuaJIT2-OpenResty', '2.1-20220411'),
@@ -60,7 +60,7 @@ dependencies = [
 separate_build_dir = True
 
 # Use system libs
-configopts = (" -DDEPS_CMAKE_FLAGS=\"-DUSE_BUNDLED_UNIBILIUM=OFF -DUSE_BUNDLED_LIBTERMKEY=OFF "
+configopts = ("-DDEPS_CMAKE_FLAGS=\"-DUSE_BUNDLED_UNIBILIUM=OFF -DUSE_BUNDLED_LIBTERMKEY=OFF "
               " -DUSE_BUNDLED_LIBVTERM=OFF -DUSE_BUNDLED_LUAJIT=OFF\" ")
 
 # Use bundled
