@@ -22,9 +22,9 @@ builddependencies = [
 ]
 
 prebuildopts = (
-    "sed 's/^CFLAGS =/CFLAGS +=/' -i \"%(builddir)s/%(name)s-%(version)s\"/makefile &&"
-    "sed 's/^LUADIR =/LUADIR ?=/' -i \"%(builddir)s/%(name)s-%(version)s\"/makefile &&"
-    "sed 's/^COPT =/# COPT =/' -i \"%(builddir)s/%(name)s-%(version)s\"/makefile && "
+    "sed 's/^CFLAGS =/CFLAGS +=/' -i \"%(builddir)s/%(namelower)s-%(version)s\"/makefile &&"
+    "sed 's/^LUADIR =/LUADIR ?=/' -i \"%(builddir)s/%(namelower)s-%(version)s\"/makefile &&"
+    "sed 's/^COPT =/# COPT =/' -i \"%(builddir)s/%(namelower)s-%(version)s\"/makefile && "
 )
 build_cmd = "make LUADIR=$EBROOTLUAJIT2MINOPENRESTY/include/luajit-2.1/ DLLFLAGS=-lluajit-5.1"
 
